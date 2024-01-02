@@ -1,12 +1,12 @@
 # contains variables used in the other tf files.
 
 variable "AWS_REGION" {
-  default = "us-west-2"
+  default = "eu-west-2"
 }
 
 # AZ we will use for lab
 variable "AZ" {
-  default = "us-west-2a"
+  default = "eu-west-2a"
 }
 
 # Use current directory for private key file
